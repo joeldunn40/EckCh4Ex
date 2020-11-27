@@ -33,6 +33,8 @@ public class TenAdditionQuestions {
 		create();
 		administer();
 		grade();
+// 		according to Eck: no global var: use variables set here, call with parameters
+//		e.g. create(firstNumbers,secondNumbers) will assign values within main so can then call administer(f.... ) etc
 	} // end main
 	
 	/** 
